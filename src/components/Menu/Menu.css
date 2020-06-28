@@ -1,3 +1,7 @@
+.navbar{
+  padding: .5rem 0px!important;
+}
+
 .darkContent .navbar{
   background-color: #600079!important;
 }
@@ -192,8 +196,8 @@
 
   .navbar-light .navbar-nav .nav-link{
     color: rgba(30, 25, 25, 0.3)!important;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 42px;
+    line-height: 49px;
     margin-right: 0px;
     font-weight: 700;
     text-align: center;
@@ -235,7 +239,7 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     left: 0px;
     width: 100%;
   }

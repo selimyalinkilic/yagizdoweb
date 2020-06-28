@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+
 import { func, string } from 'prop-types';
 
 import { Navbar, Nav } from 'react-bootstrap';
@@ -35,7 +35,7 @@ class Menu extends Component {
             width="32"
             height="32"
             className="d-inline-block align-top yLogo"
-            alt="yagoo logo"
+            alt="yagoologo"
             />
         </Navbar.Brand>
         <button className="show-navbar ml-auto d-block d-lg-none d-xl-none" onClick={addClass}>
@@ -49,12 +49,10 @@ class Menu extends Component {
             <Nav.Link href="#about">Hakkımda</Nav.Link>
             <Nav.Link href="#projects">Projeler</Nav.Link>
             <Nav.Link href="#blog">Blog</Nav.Link>
-            <Nav.Link href="#" className="d-block d-lg-none d-xl-none">Özgeçmiş</Nav.Link>
+            <a href="/" className="nav-link d-block d-lg-none d-xl-none">Özgeçmiş</a>
           </Nav>
           <div className="menuOther">
-              <Router>
-                <Link to="#" className="resumeLink d-none d-lg-block d-xl-block">Özgeçmiş</Link>
-              </Router>
+              <a href="/" className="resumeLink d-none d-lg-block d-xl-block">Özgeçmiş</a>
               <span className="siteMode" onClick={toggleTheme} />
               <div className="changeLang">
                 <p className="d-block d-lg-none d-xl-none changeLangText">Dili Değiştir</p>

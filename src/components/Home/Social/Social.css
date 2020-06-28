@@ -1,0 +1,38 @@
+.ySocial{
+  display: flex;
+
+}
+
+.socialLink{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background-color: rgba(194, 2, 242, 0.10);
+  margin-right: 10px;
+}
+
+.socialLink:last-child{
+  margin-right: 0px;
+}
+
+.socialIcon{
+  width: 20px;
+  height: 20px;
+}
+
+.socialLink:last-child .socialIcon{
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 991px){
+  .ySocial{
+    width: 100%;
+    justify-content: center;
+  }
+}
