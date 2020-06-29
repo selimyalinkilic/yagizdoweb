@@ -6,7 +6,7 @@ import './About.css';
 const About = ({theme}) => {
   const isLight = theme === 'light';
   return (
-    <div className="aboutSide">
+    <div className="aboutSide" id="about">
       <Row>
         <Col xs={12} lg={7} className="asTextContent">
           <h2 className="sectionTitle">Hakkımda</h2>

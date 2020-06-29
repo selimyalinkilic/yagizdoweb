@@ -24,7 +24,7 @@ function App() {
           <Menu theme={theme} toggleTheme={toggleTheme} />
           <section>
             <Home />
-            <About theme={theme} />
+            <About theme={theme}/>
           </section>
         </Container>
       </div>

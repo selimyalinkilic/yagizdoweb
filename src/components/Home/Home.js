@@ -8,7 +8,7 @@ import Social from './Social/Social';
 
 function Home() {
   return (
-    <div className="homeSide">
+    <div className="homeSide" id="home">
       <Row>
         <Col xs={12} lg={8}>
           <div className="hsTextContent">
