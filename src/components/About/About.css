@@ -1,0 +1,100 @@
+.aboutSide{
+  width: 100%;
+  margin-top: 150px;
+}
+
+.aboutText{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutText p{
+  max-width: 542px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #191A1E;
+}
+
+.whatIKList{
+  padding: 0px 20px;
+  width: 376px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whatIKList li{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #191A1E;
+  width: 50%;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.darkContent .aboutText p,
+.darkContent .whatIKList li{
+  color: #F1B8FF;
+}
+
+.whatIKList li::before{
+  content: "\2022";
+  color: #CD05FF;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.asImgContent{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.asImgContent img{
+  width: 100%;
+  max-width: 412px;
+  height: auto;
+}
+
+
+@media (max-width: 991px){
+
+  .aboutSide{
+    margin-top: 120px;
+  }
+
+  .aboutSide .row{
+    flex-direction: column-reverse;
+  }
+
+  .asTextContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutText p{
+    width: 100%;
+    max-width: inherit;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .whatIKList li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .asImgContent{
+    justify-content: center;
+  }
+
+  .asImgContent img{
+    width: 243px;
+    height: 202px;
+  }
+}

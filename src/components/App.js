@@ -10,6 +10,7 @@ import { Container } from 'react-bootstrap';
 import Home from './Home/Home';
 
 import './App.css';
+import About from './About/About';
 
 function App() {
   const [theme, toggleTheme] = useDarkMode();
@@ -23,6 +24,7 @@ function App() {
           <Menu theme={theme} toggleTheme={toggleTheme} />
           <section>
             <Home />
+            <About theme={theme} />
           </section>
         </Container>
       </div>

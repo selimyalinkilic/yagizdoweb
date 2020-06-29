@@ -1,0 +1,37 @@
+import React from 'react';
+
+import { Row, Col } from 'react-bootstrap';
+import './About.css';
+
+const About = ({theme}) => {
+  const isLight = theme === 'light';
+  return (
+    <div className="aboutSide">
+      <Row>
+        <Col xs={12} lg={7} className="asTextContent">
+          <h2 className="sectionTitle">Hakkımda</h2>
+          <div className="aboutText">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum pellentesque porttitor et, augue aliquam ut sollicitudin pellentesque eleifend.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum pellentesque porttitor et, augue aliquam ut sollicitudin pellentesque eleifend.</p>
+            <p>Here are a few technologies I've been working with recently:</p>
+          </div>
+          <ul className="whatIKList">
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>HTML & CSS</li>
+            <li>Node.js</li>
+          </ul>
+        </Col>
+        <Col xs={12} lg={5} className="asImgContent">
+          <img
+            src={isLight ? "/img/about-yagoo-light.png" : "/img/about-yagoo-dark.png"}
+            alt="yagoabout"
+          >
+          </img>
+        </Col>
+      </Row>
+    </div>
+  )
+}
+
+export default About;

@@ -111,7 +111,7 @@
   color: #CD05FF;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 0px!important;
 }
 
@@ -196,8 +196,8 @@
 
   .navbar-light .navbar-nav .nav-link{
     color: rgba(30, 25, 25, 0.3)!important;
-    font-size: 42px;
-    line-height: 49px;
+    font-size: 38px;
+    line-height: 45px;
     margin-right: 0px;
     font-weight: 700;
     text-align: center;

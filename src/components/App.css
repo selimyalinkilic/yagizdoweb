@@ -1,9 +1,26 @@
+body{
+  font-family: 'Roboto', sans-serif!important;
+  font-weight: 400!important;
+}
+
 section {
   margin-top: 104px;
+}
+
+.sectionTitle{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #C202F2;
 }
 
 @media (max-width: 991px){
   section{
     margin-top: 60px;
+  }
+
+  .sectionTitle{
+    font-size: 36px;
+    line-height: 42px;
   }
 }
