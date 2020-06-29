@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { func, string } from 'prop-types';
 
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 import './Menu.css'
 
@@ -44,11 +45,19 @@ class Menu extends Component {
           </svg>
         </button>
         <div className={showClass ? "navbar-collapse collapse show" : "navbar-collapse collapse"}>
-          <Nav className="ml-auto" activeKey="#home">
-            <Nav.Link href="#home">Anasayfa</Nav.Link>
-            <Nav.Link href="#about">Hakkımda</Nav.Link>
-            <Nav.Link href="#projects">Projeler</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
+          <Nav className="ml-auto" activeKey="home">
+            <Link href="#home" className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>
+              Anasayfa
+            </Link>
+            <Link href="#about" className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-10} duration={500}>
+              Hakkımda
+            </Link>
+            <Link href="#projects" className="nav-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-10} duration={500}>
+              Projeler
+            </Link>
+            <Link href="#blog" className="nav-link" activeClass="active" to="blog" spy={true} smooth={true} offset={-10} duration={500}>
+              Blog
+            </Link>
             <a href="/" className="nav-link d-block d-lg-none d-xl-none">Özgeçmiş</a>
           </Nav>
           <div className="menuOther">
