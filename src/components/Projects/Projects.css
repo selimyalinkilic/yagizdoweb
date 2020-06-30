@@ -1,0 +1,11 @@
+.projectsSide{
+  width: 100%;
+  margin-top: 150px;
+  position: relative;
+}
+
+@media (max-width: 991px){
+  .projectsSide{
+    margin-top: 114px;
+  }
+}

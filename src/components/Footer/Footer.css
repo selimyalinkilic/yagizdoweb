@@ -1,0 +1,12 @@
+footer{
+  margin-top: 150px;
+  width: 100%;
+  height: 200px;
+  border-bottom: 50px solid #C202F2;
+  display: flex;
+  flex-direction: column;
+}
+
+.darkContent footer{
+  border-color: rgba(194, 2, 242, 0.30);
+}

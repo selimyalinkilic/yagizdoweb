@@ -11,6 +11,8 @@ import Home from './Home/Home';
 
 import './App.css';
 import About from './About/About';
+import Projects from './Projects/Projects';
+import Footer from './Footer/Footer';
 
 function App() {
   const [theme, toggleTheme] = useDarkMode();
@@ -25,8 +27,10 @@ function App() {
           <section>
             <Home />
             <About theme={theme}/>
+            <Projects />
           </section>
         </Container>
+        <Footer/>
       </div>
     </ThemeProvider> 
   )
