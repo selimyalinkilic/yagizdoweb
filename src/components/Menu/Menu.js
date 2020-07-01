@@ -41,16 +41,16 @@ class Menu extends Component {
         </button>
         <div className={showClass ? "navbar-collapse collapse show" : "navbar-collapse collapse"}>
           <Nav className="ml-auto" activeKey="home">
-            <Link href="#home" className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>
+            <Link href="#home" className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500} onClick={removeClass}>
               Anasayfa
             </Link>
-            <Link href="#about" className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-10} duration={500}>
+            <Link href="#about" className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-10} duration={500} onClick={removeClass}>
               Hakkımda
             </Link>
-            <Link href="#projects" className="nav-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-10} duration={500}>
+            <Link href="#projects" className="nav-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-10} duration={500} onClick={removeClass}>
               Projeler
             </Link>
-            <Link href="#blog" className="nav-link" activeClass="active" to="blog" spy={true} smooth={true} offset={-10} duration={500}>
+            <Link href="#blog" className="nav-link" activeClass="active" to="blog" spy={true} smooth={true} offset={-10} duration={500} onClick={removeClass}>
               Blog
             </Link>
             <a href="/" className="nav-link d-block d-lg-none d-xl-none">Özgeçmiş</a>
