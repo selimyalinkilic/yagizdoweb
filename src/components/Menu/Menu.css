@@ -6,6 +6,18 @@
   background-color: #600079!important;
 }
 
+.yLogo{
+  width: 32px;
+  height: 32px;
+  background: url("/img/icon/yago-logo.png") no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+}
+
+.darkContent .yLogo{
+  background-position-y: -32px;
+}
+
 .navbar-light .navbar-nav .nav-link{
   color: rgba(30, 25, 25, 0.50)!important;
   font-size: 14px;
@@ -177,6 +189,20 @@
   fill: #F1B8FF;
 }
 
+@media (max-width: 575px){
+  .navbar-light .navbar-nav .nav-link{
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:991px){
+  .navbar-light .navbar-nav .nav-link{
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+
 @media (max-width: 991px){
   .navbar-collapse.collapse.show{
     position: fixed!important;
@@ -201,8 +227,6 @@
 
   .navbar-light .navbar-nav .nav-link{
     color: rgba(30, 25, 25, 0.3)!important;
-    font-size: 38px;
-    line-height: 45px;
     margin-right: 0px;
     font-weight: 700;
     text-align: center;

@@ -19,25 +19,20 @@ class Menu extends Component {
       this.setState({
         showClass : true
       });
+      document.body.style.overflow = "hidden";
     };
     const removeClass = () => {
       this.setState({
         showClass : false
       });
+      document.body.style.overflow = "inherit";
     };
-    const { theme, toggleTheme } = this.props;
+    const { toggleTheme } = this.props;
     const { showClass } = this.state;
-    const isLight = theme === 'light';
     return (
       <Navbar bg="white" expand="lg">
         <Navbar.Brand href="/">
-          <img
-            src={isLight ? "./img/icon/yagoo-logo.svg" : "./img/icon/yagoo-logo-light.svg"}
-            width="32"
-            height="32"
-            className="d-inline-block align-top yLogo"
-            alt="yagoologo"
-            />
+          <span className="yLogo"></span>
         </Navbar.Brand>
         <button className="show-navbar ml-auto d-block d-lg-none d-xl-none" onClick={addClass}>
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
