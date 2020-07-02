@@ -5,7 +5,7 @@ import {Row} from 'react-bootstrap';
 import './Projects.css';
 
 const projectsArray = [
-  {id: 1, title: "Project 1", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "/"},
+  {id: 1, title: "3ToGo", text: "3ToGo android uygulaması", category: "Android", url: "https://3togo.co/home/"},
   {id: 2, title: "Project 2", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "/"},
   {id: 3, title: "Project 3", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "/"}
 ]

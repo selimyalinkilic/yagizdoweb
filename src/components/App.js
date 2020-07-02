@@ -14,7 +14,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Footer from './Footer/Footer';
 
-function App() {
+const App = () => {
   const [theme, toggleTheme] = useDarkMode();
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
   const themeClass = theme === 'light' ? "lightContent" : "darkContent";

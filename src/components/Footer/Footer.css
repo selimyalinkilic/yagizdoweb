@@ -1,7 +1,7 @@
 footer{
   margin-top: 150px;
   width: 100%;
-  height: 200px;
+  height: auto;
   border-bottom: 50px solid #C202F2;
   display: flex;
   flex-direction: column;
@@ -9,4 +9,70 @@ footer{
 
 .darkContent footer{
   border-color: rgba(194, 2, 242, 0.30);
+}
+
+.contactSide{
+  padding-bottom: 88px;
+}
+
+.contactTitle{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #C202F2;
+}
+
+.contactText{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #191A1E;
+  width: 100%;
+  text-align: center;
+  margin: 21px 0px;
+}
+
+.darkContent .contactText{
+  color: #F1B8FF;
+}
+
+.contactBtn{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #C202F2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: rgba(205, 5, 255, 0.10);
+}
+
+.contactBtn:hover{
+  color: #C202F2;
+}
+
+@media (max-width: 991px){
+
+  footer{
+    margin-top: 80px;
+  }
+
+  .contactSide{
+    max-width: 275px;
+    padding-bottom: 80px;
+  }
+  
+  .contactTitle{
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .contactText{
+    font-size: 18px;
+    line-height: 20px;
+    margin: 15px 0px;
+  }
 }

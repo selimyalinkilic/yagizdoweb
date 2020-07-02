@@ -6,7 +6,7 @@ import './Home.css';
 import Social from './Social/Social';
 
 
-function Home() {
+const Home = () => {
   return (
     <div className="homeSide" id="home">
       <Row>
