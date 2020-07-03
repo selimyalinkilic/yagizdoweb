@@ -13,6 +13,7 @@ import './App.css';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Footer from './Footer/Footer';
+import Blog from './Blog/Blog';
 
 const App = () => {
   const [theme, toggleTheme] = useDarkMode();
@@ -28,6 +29,7 @@ const App = () => {
             <Home />
             <About theme={theme}/>
             <Projects />
+            <Blog />
           </section>
         </Container>
         <Footer/>

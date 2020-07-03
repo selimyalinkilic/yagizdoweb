@@ -51,6 +51,23 @@ a:hover{
   text-decoration: inherit!important;
 }
 
+.btn-primary{
+  color: #CD05FF!important;
+  background-color: rgba(194, 2, 242, 0.1)!important;
+  border-color: rgba(194, 2, 242, 0.1)!important;
+}
+
+.btn-primary:hover{
+  background-color: rgba(219, 83, 253, 0.2)!important;
+  background-color: rgba(219, 83, 253, 0.2)!important;
+}
+
+.darkContent .btn-primary{
+  color: #F1B8FF!important;
+  background-color: rgba(219, 83, 253, 0.1)!important;
+  background-color: rgba(219, 83, 253, 0.2)!important;
+}
+
 @media (min-width: 992px){
   .showAllBtn{
     position: absolute;
