@@ -14,6 +14,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Footer from './Footer/Footer';
 import Blog from './Blog/Blog';
+import ScrollTop from './ScrollTop/ScrollTop';
 
 const App = () => {
   const [theme, toggleTheme] = useDarkMode();
@@ -22,7 +23,7 @@ const App = () => {
   return (
     <ThemeProvider theme={themeMode}>
       <GlobalStyles />
-      <div className={themeClass}>
+      <div className={themeClass} id="main">
         <Container>
           <Menu theme={theme} toggleTheme={toggleTheme} />
           <section>
@@ -33,6 +34,7 @@ const App = () => {
           </section>
         </Container>
         <Footer/>
+        <ScrollTop />
       </div>
     </ThemeProvider> 
   )
