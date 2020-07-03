@@ -15,7 +15,7 @@ const Post = (props) => {
           <Card.Text>
             {props.text}
           </Card.Text>
-          <a href={props.url} className="btn btn-primary" variant="primary" >Devamı</a>
+          <a href={props.url} className="btn btn-primary" variant="primary" target="_blank" rel="noopener noreferrer">Devamı</a>
         </Card.Body>
       </Card>
     </Col>
