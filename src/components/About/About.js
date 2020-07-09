@@ -3,10 +3,10 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './About.css';
 
-const About = ({theme}) => {
-  const isLight = theme === 'light';
+
+const About = () => {
   return (
-    <div className="aboutSide" id="about">
+    <div className="aboutSide" id="about" >
       <Row>
         <Col xs={12} lg={7} className="asTextContent">
           <h2 className="sectionTitle">Hakkımda</h2>
@@ -16,18 +16,13 @@ const About = ({theme}) => {
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
           <ul className="whatIKList">
-            <li>Javascript</li>
             <li>React.js</li>
-            <li>HTML & CSS</li>
-            <li>Node.js</li>
+            <li>Java</li>
+            <li>C#</li>
           </ul>
         </Col>
         <Col xs={12} lg={5} className="asImgContent">
-          <img
-            src={isLight ? "/img/about-yagoo-light.png" : "/img/about-yagoo-dark.png"}
-            alt="yagoabout"
-          >
-          </img>
+          <div className="asImg"></div>
         </Col>
       </Row>
     </div>

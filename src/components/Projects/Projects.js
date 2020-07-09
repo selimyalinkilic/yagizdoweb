@@ -6,7 +6,7 @@ import './Projects.css';
 
 const projectsArray = [
   {id: 1, title: "3ToGo", text: "3ToGo android uygulaması", category: "Android", url: "https://3togo.co/home/"},
-  {id: 2, title: "Project 2", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "/"},
+  {id: 2, title: "Twitch Chatbot", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "https://github.com/yagizdo/yagoo-bot-twitch"},
   {id: 3, title: "Project 3", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", category: "javascript", url: "/"}
 ]
 
@@ -15,15 +15,7 @@ const Projects = () => {
     <div className="projectsSide" id="projects">
       <h2 className="sectionTitle">Projeler</h2>
       <Row>
-        {projectsArray.map((project) => 
-          <Project
-            key={project.id}
-            title={project.title} 
-            text={project.text} 
-            category={project.category}
-            url={project.url}
-          />
-        )}
+        <Project projects={projectsArray}/>
       </Row>
       <a 
         href="https://github.com/yagizdo?tab=repositories" 

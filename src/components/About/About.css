@@ -53,13 +53,28 @@
   justify-content: flex-end;
 }
 
-.asImgContent img{
-  width: 100%;
-  max-width: 412px;
-  height: auto;
-  max-height: 343px;
+.asImg{
+  width: 412px;
+  height: 343px;
+  background: url("/img/about.png") no-repeat;
+  background-size: 100% auto;
 }
 
+.darkContent .asImg{
+  background-position-y: -343px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .asImg{
+    width: 350px;
+    height: 291px;
+  }
+
+  .darkContent .asImg{
+    background-position-y: -291px;
+  }
+}
 
 @media (max-width: 991px){
 
@@ -99,8 +114,12 @@
     justify-content: center;
   }
 
-  .asImgContent img{
+  .asImg{
     width: 243px;
     height: 202px;
+  }
+
+  .darkContent .asImg{
+    background-position-y: -202px;
   }
 }

@@ -15,17 +15,7 @@ const Blog = () => {
     <div className="blogSide" id="blog">
       <h2 className="sectionTitle">Blog</h2>
       <Row>
-      {
-        postsArray.map((post) =>
-          <Post 
-            key={post.id}
-            img={post.img}
-            title={post.title}
-            text={post.text}
-            url={post.url}
-          />  
-        ) 
-      }
+        <Post posts={postsArray}/>
       </Row>
       <a 
         href="https://medium.com/@dokumaciyagiz" 
