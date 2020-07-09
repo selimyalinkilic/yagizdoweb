@@ -20,7 +20,7 @@
 .siteMode{
   width: 21px;
   height: 21px;
-  background: url(/img/icon/siteMode.png) no-repeat;
+  background: url("/img/icon/sitemode.png") no-repeat;
   background-size: 100% auto;
   background-position: center 0px;
   cursor: pointer;
