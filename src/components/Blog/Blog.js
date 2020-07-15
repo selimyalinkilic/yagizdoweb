@@ -4,9 +4,9 @@ import { Row } from 'react-bootstrap';
 import './Blog.css';
 
 const postsArray = [
-  { id: "1", img : "https://miro.medium.com/max/2000/0*4sNw97BY-dG_-axL.", title : "Sıfırdan bir Web Sitesi Tasarlama Adımları", text: "Bir web sitesi tasarlamak için her şeyden önce kafamızda yol haritasını belirle...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
-  { id: "2", img : "https://miro.medium.com/max/2000/0*4sNw97BY-dG_-axL.", title : "Pişman Olmak İstemiyorsan Erteleme!", text: "Ertelemek günümüz zamanının en kötü alışkanlığı. Ben bile şuan bu yazıyı gece...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
-  { id: "3", img : "https://miro.medium.com/max/2000/0*4sNw97BY-dG_-axL.", title : "iTunes Kullanarak iPhone / iPad / iPod Restore Etmek", text: "Telefonumuzu restore etmenin yani fabrika ayarlarına döndürmenin 2 yolu vardır.", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"}
+  { id: "1", img : "/img/web.jpg", title : "Sıfırdan bir Web Sitesi Tasarlama Adımları", text: "Bir web sitesi tasarlamak için her şeyden önce kafamızda yol haritasını belirle...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
+  { id: "2", img : "/img/motivation.jpg", title : "Pişman Olmak İstemiyorsan Erteleme!", text: "Ertelemek günümüz zamanının en kötü alışkanlığı. Ben bile şuan bu yazıyı gece...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
+  { id: "3", img : "/img/iphone.jpg", title : "iTunes Kullanarak iPhone / iPad / iPod Restore Etmek", text: "Telefonumuzu restore etmenin yani fabrika ayarlarına döndürmenin 2 yolu vardır.", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"}
 ]
 
 

@@ -11,12 +11,12 @@ const About = () => {
         <Col xs={12} lg={7} className="asTextContent">
           <h2 className="sectionTitle">Hakkımda</h2>
           <div className="aboutText">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum pellentesque porttitor et, augue aliquam ut sollicitudin pellentesque eleifend.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum pellentesque porttitor et, augue aliquam ut sollicitudin pellentesque eleifend.</p>
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Öğrenmeye ve kendime meydan okumaya devam etmeyi tercih ediyorum.</p>
+            <p>Bol enerjim ve pozitif kişiliğim sayesinde birçok teknolojiyle başa çıkabilirim. Hızlı öğrenen biriyim, yeni beceriler kazanabiliyorum. Benimle iletişim kurmak istiyorsan, sadece buraya tıkla.</p>
+            <p>İşte son zamanlarda üzerinde çalıştığım birkaç teknoloji:</p>
           </div>
           <ul className="whatIKList">
-            <li>React.js</li>
+            <li>Android</li>
             <li>Java</li>
             <li>C#</li>
           </ul>
