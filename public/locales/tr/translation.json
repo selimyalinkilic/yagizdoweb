@@ -1,0 +1,69 @@
+{
+  "Home":{
+    "1": "Anasayfa"
+  },
+  "About":{
+    "1": "Hakkımda"
+  },
+  "Projects":{
+    "1": "Projeler"
+  },
+  "Blog": {
+    "1": "Blog"
+  },
+  "Resume":{
+    "1": "Özgeçmiş"
+  },
+  "Hi":{
+    "1" : "Merhaba, ben"
+  },
+  "Job":{
+    "1" : "Android Geliştiricisiyim"
+  },
+  "HomeText":{
+    "1" : "Hevesli bir Android Uygulama Geliştiricisi ve araştırmacısıyım. Şık ve kullanıcı dostu uygulamalar kodlarım. Motivasyon, Yazılım ve Yemekler hakkında Türkçe yazılarda yazıyorum."
+  },
+  "AboutText1":{
+    "1" : "Öğrenmeye ve kendime meydan okumaya devam etmeyi tercih ediyorum."
+  },
+  "AboutText2":{
+    "1" : "Bol enerjim ve pozitif kişiliğim sayesinde birçok teknolojiyle başa çıkabilirim. Hızlı öğrenen biriyim, yeni beceriler kazanabiliyorum. Benimle iletişim kurmak istiyorsan, sadece buraya tıkla."
+  },
+  "AboutText3":{
+    "1": "İşte son zamanlarda üzerinde çalıştığım birkaç teknoloji:"
+  },
+  "SeeAll":{
+    "1": "Tümünü Gör"
+  },
+  "ProjectTitle1":{
+    "1" : "3ToGo"
+  },
+  "ProjectTitle2":{
+    "1" : "Twitch Chatbot"
+  },
+  "ProjectTitle3":{
+    "1" : "Firebase Staj Projesi"
+  },
+  "ProjectText1":{
+    "1" : "3ToGo Android Uygulaması"
+  },
+  "ProjectText2":{
+    "1" : "Twitch kanalım için chat uygulaması"
+  },
+  "ProjectText3":{
+    "1" : "Staj sürem boyunca geliştirdiğim Firebase projem"
+  },
+  "contactTitle":{
+    "1" : "Bana Ulaşın"
+  },
+  "contactText":{
+    "1" : "Selam vermek için ya da bir proje için e-posta atabilirsiniz. E-postanızı cevaplamak için elimden geleni yapacağım."
+  },
+  "contactBtn":{
+    "1": "E-posta Gönder"
+  },
+  "changeLang":{
+    "1": "Dili Değiştir"
+  }
+
+}

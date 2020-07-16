@@ -2,18 +2,19 @@ import React from 'react';
 
 import { Row, Col } from 'react-bootstrap';
 import './About.css';
-
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const {t} = useTranslation();
   return (
     <div className="aboutSide" id="about" >
       <Row>
         <Col xs={12} lg={7} className="asTextContent">
-          <h2 className="sectionTitle">Hakkımda</h2>
+          <h2 className="sectionTitle"> {t('About.1')} </h2>
           <div className="aboutText">
-            <p>Öğrenmeye ve kendime meydan okumaya devam etmeyi tercih ediyorum.</p>
-            <p>Bol enerjim ve pozitif kişiliğim sayesinde birçok teknolojiyle başa çıkabilirim. Hızlı öğrenen biriyim, yeni beceriler kazanabiliyorum. Benimle iletişim kurmak istiyorsan, sadece buraya tıkla.</p>
-            <p>İşte son zamanlarda üzerinde çalıştığım birkaç teknoloji:</p>
+            <p>{t('AboutText1.1')}</p>
+            <p>{t('AboutText2.1')}</p>
+            <p>{t('AboutText3.1')}</p>
           </div>
           <ul className="whatIKList">
             <li>Android</li>

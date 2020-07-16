@@ -3,14 +3,16 @@ import Post from './Post/Post';
 import { Row } from 'react-bootstrap';
 import './Blog.css';
 
+import {useTranslation} from 'react-i18next';
+
 const postsArray = [
-  { id: "1", img : "/img/web.jpg", title : "Sıfırdan bir Web Sitesi Tasarlama Adımları", text: "Bir web sitesi tasarlamak için her şeyden önce kafamızda yol haritasını belirle...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
-  { id: "2", img : "/img/motivation.jpg", title : "Pişman Olmak İstemiyorsan Erteleme!", text: "Ertelemek günümüz zamanının en kötü alışkanlığı. Ben bile şuan bu yazıyı gece...", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"},
+  { id: "1", img : "/img/web.jpg", title : "Sıfırdan bir Web Sitesi Tasarlama Adımları", text: "Bir web sitesi tasarlamak için her şeyden önce kafamızda yol haritasını belirle...", url: "https://medium.com/@dokumaciyagiz/sıfırdan-web-sitesi-tasarlama-adımları-bd399d677dfc"},
+  { id: "2", img : "/img/motivation.jpg", title : "Pişman Olmak İstemiyorsan Erteleme!", text: "Ertelemek günümüz zamanının en kötü alışkanlığı. Ben bile şuan bu yazıyı gece...", url: "https://medium.com/t%C3%BCrkiye/pi%C5%9Fman-olmak-istemiyorsan-erteleme-80ba0d2bd64b"},
   { id: "3", img : "/img/iphone.jpg", title : "iTunes Kullanarak iPhone / iPad / iPod Restore Etmek", text: "Telefonumuzu restore etmenin yani fabrika ayarlarına döndürmenin 2 yolu vardır.", url: "https://medium.com/türkiye/itunes-kullanarak-iphone-ipad-ipod-restore-etmek-b61a34da5828"}
 ]
 
-
 const Blog = () => {
+  const {t} = useTranslation();
   return (
     <div className="blogSide" id="blog">
       <h2 className="sectionTitle">Blog</h2>
@@ -23,7 +25,7 @@ const Blog = () => {
         target="_blank" 
         className="showAllBtn"
       >
-        Tümünü Gör
+        {t('SeeAll.1')}
       </a>
     </div>
   )
