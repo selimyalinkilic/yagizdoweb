@@ -9053,11 +9053,6 @@ react-scroll@^1.7.16:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
-react-seo-component@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/react-seo-component/-/react-seo-component-2.0.2.tgz#0297dd7d6a2c3d54ce71ca3cbedec330e4870149"
-  integrity sha512-OQmrWcOn15ST9oBOfpWHrDwXKELw6ztAblHpTPdL2xmlOWazfZ13Nk6X/+LC7bEcFxGt5Tq6731OnZ35atG0Kg==
-
 react-side-effect@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
